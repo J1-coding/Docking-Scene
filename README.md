@@ -15,7 +15,6 @@ Simulation demo of drone docking scene. The project models a docking mechanism w
   Implemented with Unity’s Cinemachine and Dolby Track to enhance visual presentation.
 - **Stable Physics Updates**  
   All physics-driven mechanics are executed within `FixedUpdate()` to maintain simulation stability.
-
 ## Demo Video  
 [![Docking Scene Demo](https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg)](https://www.youtube.com/watch?v=tNUVmWVUYQc&autoplay=1)
 
