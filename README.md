@@ -1,4 +1,4 @@
-# ✈Docking Scene Simulation
+# ✈ Docking Scene Simulation
 
 Simulation demo of drone docking scene. Showcases a simulation of a drone autonomously docking to a target(basket), representing an aerospace docking scenario.
 
