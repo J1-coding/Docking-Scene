@@ -17,5 +17,6 @@ Simulation demo of drone docking scene. The project models a docking mechanism w
   All physics-driven mechanics are executed within `FixedUpdate()` to maintain simulation stability.
 
 ## Demo Video  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tNUVmWVUYQc?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Docking Scene Demo](https://img.youtube.com/vi/tNUVmWVUYQc/0.jpg)](https://www.youtube.com/watch?v=tNUVmWVUYQc&autoplay=1)
+
 
