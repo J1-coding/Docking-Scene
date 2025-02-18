@@ -1,13 +1,12 @@
 # Docking Scene Simulation
 
-Simulation demo of drone docking scene. The project models a docking mechanism where a drone autonomously navigates to a designated target, simulating aerospace docking scenarios.
-
+Simulation demo of drone docking scene. Showcases a simulation of a drone autonomously docking to a designated target, representing an aerospace docking scenario.
 
 ## Features
 - **Missile Guidance-Based Docking**  
   The drone follows a missile-inspired trajectory to approach the docking basket with precision.
 - **Smooth Rotation via Coroutines**  
-  Quaternion-based rotations are handled with Unity coroutines for seamless movement.
+  Quaternion-based rotations are handled with Unity coroutines for smooth movement.
 - **Touchdown Event Triggering**  
   Transparent trigger colliders are placed along the trajectory to detect drone passage, triggering sequential events such as detachment and velocity adjustments.
 - **Target Point Optimization for Docking**  
