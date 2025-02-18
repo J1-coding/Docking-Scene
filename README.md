@@ -1,28 +1,21 @@
-# Docking-Scene
-Unity
-Simulation of Deep Learning based Docking in Aerospace
+# Docking Scene Simulation
 
+Simulation demo of drone docking scene. The project models a docking mechanism where a drone autonomously navigates to a designated target, simulating aerospace docking scenarios.
 
-missile method motivation for forwarding drone to the basket
-coroutine used for smooth rotation
-touch down method to trigger event(throw drone, speed change)
-made target points for smoothlthy docking to the basket
-added lights and colors to the basic model
-added environment for the simulation background
-Cinematic Dolby camera was used
+## Features
+- **Missile Guidance-Based Docking**  
+  The drone follows a missile-inspired trajectory to approach the docking basket with precision.
+- **Smooth Rotation via Coroutines**  
+  Quaternion-based rotations are handled with Unity coroutines for seamless movement.
+- **Touchdown Event Triggering**  
+  Transparent trigger colliders are placed along the trajectory to detect drone passage, triggering sequential events such as detachment and velocity adjustments.
+- **Target Point Optimization for Docking**  
+  A series of strategically placed target points ensure smooth, controlled docking.
+- **Cinematic Camera Control**  
+  Implemented with Unity’s Cinemachine and Dolby Track to enhance visual presentation.
+- **Stable Physics Updates**  
+  All physics-driven mechanics are executed within `FixedUpdate()` to maintain simulation stability.
 
-1. Change Rotation Pivot of prefab
-    
+## Demo Video  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tNUVmWVUYQc?autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-2. Smooth Rotationand Moving using Coroutine
-   
-3. Transparent Touchdown Event
-   
-   Drone detatch, speed change
-
-4. Cinemachine
-   
-   Cinematic Dolby Track
-
-
-5. Stable Physical update using FixedUpdate()
