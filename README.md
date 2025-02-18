@@ -1,6 +1,6 @@
 # Docking Scene Simulation
 
-Simulation demo of drone docking scene. Showcases a simulation of a drone autonomously docking to a designated target, representing an aerospace docking scenario.
+Simulation demo of drone docking scene. Showcases a simulation of a drone autonomously docking to a target(basket), representing an aerospace docking scenario.
 
 ## Features
 - **Missile Guidance-Based Docking**  
