@@ -8,7 +8,7 @@ Simulation demo of drone docking scene. Showcases a simulation of a drone autono
 - **Smooth Rotation via Coroutines**  
   Quaternion-based rotations are handled with Unity coroutines for smooth movement.
 - **Touchdown Event Triggering**  
-  Transparent trigger colliders are placed along the trajectory to detect drone passage, triggering sequential events such as detachment and velocity adjustments.
+  Transparent trigger colliders are placed along the trajectory to detect drone passage, triggering sequential events such as detachment and speed adjustments.
 - **Target Point Optimization for Docking**  
   A series of strategically placed target points ensure smooth, controlled docking.
 - **Cinematic Camera Control**  
